@@ -17,9 +17,9 @@ const Copyright = () => {
           viewport={{ once: false, amount: 0 }}
           className='tracking-[0.02em] text-base'
         >
-          &copy; 2022
-          <span className='font-semibold text-white'>The Void Tattoo.</span>
-          All rights reserved.
+         
+          <span className='font-semibold text-white'>Giovanni Arizola </span>
+          Project 2 N320
         </motion.div>
       </div>
     </div>

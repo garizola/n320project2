@@ -23,12 +23,12 @@ module.exports = {
       colors: {
         dark: '#111111',
         grey: {
-          DEFAULT: '#7f6',
+          DEFAULT: '#111111',
         },
       },
       backgroundImage: {
-        hero: "url('/src/img/hero/bg.jpg')",
-        about: "url('/src/img/about/image.png')",
+        hero: "url('/src/img/hero/gettyimages-1183439827_custom-41f717184f86c9e0c034b3e5d2bba8cde09c8487.jpg')",
+        about: "url('/src/img/hero/images-jero1.jpeg')",
         interview: "url('/src/img/interview/bg.png')",
       },
       content: {

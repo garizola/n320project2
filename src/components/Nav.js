@@ -12,7 +12,7 @@ const Nav = () => {
           return (
             <li key={index}>
               <a
-                className='link hover:border-b-2 hover:border-dark transition duration-300'
+                className='link hover:border-b-2 hover:border-dark transition duration-300 font-bold'
                 href={item.href}
               >
                 {item.name}

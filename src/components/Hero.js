@@ -28,7 +28,7 @@ const Hero = () => {
         className='container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end'
       >
         {/* text & btn */}
-        <div className='text-white text-center lg:text-left lg:max-w-[640px]'>
+        <div className='text-white text-center lg:text-left lg:max-w-[640px] '>
           <motion.h1 variants={fadeIn('down')} className='h1'>
             {title}
           </motion.h1>
@@ -40,14 +40,14 @@ const Hero = () => {
           </motion.p>
           {/* btn */}
           <motion.div variants={fadeIn('down')}>
-            <button className='btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0'>
+            <button className='btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0 text-white'>
               {btnText}
               <div className='text-xl'>{btnIcon}</div>
             </button>
           </motion.div>
         </div>
         {/* outline text */}
-        <div className='hidden xl:flex absolute -bottom-2 right-0 left-0 before:content-outlineText'></div>
+        {/* <div className='hidden xl:flex absolute -bottom-2 right-0 left-0 before:content-outlineText'></div> */}
       </motion.div>
     </section>
   );

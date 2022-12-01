@@ -4,7 +4,7 @@ import { headerData } from '../data';
 // import components
 import Nav from './Nav';
 import NavMobile from './NavMobile';
-import Socials from './Socials';
+
 // import icons
 import { TiThMenuOutline } from 'react-icons/ti';
 
@@ -28,7 +28,7 @@ const Header = () => {
       <div className='flex justify-between items-center h-full pl-[50px] pr-[60px]'>
         {/* logo */}
         <a href='/'>
-          <img className='w-[188px] h-[90px]' src={logo} alt='' />
+          <img className='w-[90px] h-[90px]' src={logo} alt='' />
         </a>
         {/* nav - initially is hidden - show on desktop*/}
         <div className='hidden xl:flex'>
@@ -52,9 +52,9 @@ const Header = () => {
           <NavMobile />
         </div>
         {/* social icons - initially hidden - is showing on desktop mode */}
-        <div className='hidden xl:flex'>
+        {/* <div className='hidden xl:flex'>
           <Socials />
-        </div>
+        </div> */}
       </div>
     </header>
   );
