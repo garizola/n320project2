@@ -27,8 +27,8 @@ const Footer = () => {
           variants={staggerContainer}
           initial={'hidden'}
           whileInView={'show'}
-          viewport={{ once: false, amount: 0.1 }}
-          className='flex flex-col lg:flex-row lg:justify-between text-white gap-x-5 gap-y-14'
+          // viewport={{ once: false, amount: 0.1 }}
+          className='flex flex-col lg:flex-row lg:justify-between text-white gap-x-2 gap-y-14'
         >
           {/* about */}
           <motion.div
@@ -69,19 +69,8 @@ const Footer = () => {
               </ul>
             </div>
           </motion.div>
-          {/* program */}
+         
           {/* <motion.div variants={fadeIn('up')} className='flex-1'>
-            <div className='font-primary text-xl uppercase tracking-[0.08em] mb-6'>
-              {program.title}
-            </div>
-            <ul className='flex flex-col gap-y-4 text-[#DBDBDB]'>
-              {program.items.map((item, index) => {
-                return <li key={index}>{item.name}</li>;
-              })}
-            </ul>
-          </motion.div> */}
-          {/* newsletter */}
-          <motion.div variants={fadeIn('up')} className='flex-1'>
             <div className='font-primary text-xl uppercase tracking-[0.08em] mb-6'>
               {newsletter.title}
             </div>
@@ -98,7 +87,7 @@ const Footer = () => {
                 {newsletter.form.icon}
               </button>
             </form>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </footer>

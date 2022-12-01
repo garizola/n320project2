@@ -21,6 +21,7 @@ const Header = () => {
   });
   return (
     <header
+    // collapses once past 50px using the use effect above
       className={`${
         isActive ? 'h-[100px] lg:h-[110px] shadow-lg' : 'h-[120px] lg:h-[150px]'
       }  bg-white fixed left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}

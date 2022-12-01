@@ -1,13 +1,8 @@
 // import images
 import Logo from '../src/img/header/moby-doc-full-bg-copy-500x500.jpeg';
 
-import QuoteImg from '../src/img/testimonial/quote.svg';
-// import icons
-
 import { IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
-import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
-
 
 export const headerData = {
   logo: Logo,
@@ -29,16 +24,16 @@ export const heroData = {
   title: 'history of moby',
   subtitle:
     'a true musician',
-  btnText: 'read more',
+  btnText: 'idk yet',
   btnIcon: <IoMdArrowForward />,
 };
 
 export const aboutData = {
   title: "Moby's Story:",
   p1:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
+    'Richard Melville Hall, known professionally as Moby, is an American musician, songwriter, singer, producer, and animal rights activist. He has sold 20 million records worldwide.',
   p2:
-    'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
+    "Moby found commercial and critical success with his fifth album Play (1999) which, after receiving little recognition, became an unexpected global hit in 2000 after each track was licensed to films, television shows, and commercials. It remains his highest selling album with 12 million copies sold",
   btnText: 'more',
   btnIcon: <IoMdArrowForward />,
 };

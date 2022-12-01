@@ -22,18 +22,16 @@ module.exports = {
     extend: {
       colors: {
         dark: '#111111',
-        grey: {
-          DEFAULT: '#111111',
-        },
+        grey: '#808080',
+        infared: '#da4a31',
+      
       },
       backgroundImage: {
-        hero: "url('/src/img/hero/gettyimages-1183439827_custom-41f717184f86c9e0c034b3e5d2bba8cde09c8487.jpg')",
-        about: "url('/src/img/hero/images-jero1.jpeg')",
-        interview: "url('/src/img/interview/bg.png')",
+        hero: "url('/src/img/hero/image-asset-hero.png')",
+        about: "url('/src/img/hero/mobyplay-5.13.19.jpg')",
+  
       },
-      content: {
-        outlineText: 'url("/src/img/hero/outline-text.svg")',
-      },
+      
     },
   },
   plugins: [],
