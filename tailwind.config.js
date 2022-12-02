@@ -27,7 +27,7 @@ module.exports = {
       
       },
       backgroundImage: {
-        hero: "url('/src/img/hero/image-asset-hero.png')",
+        hero: "url('/src/img/hero/img_3949_wide-0a15d6f15ec1a38eaa601101e257ec90875c90b0.jpg')",
         about: "url('/src/img/hero/mobyplay-5.13.19.jpg')",
   
       },
