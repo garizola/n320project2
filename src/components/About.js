@@ -33,13 +33,13 @@ const About = () => {
             // viewport={{ once: false, amount: 0.6 }}
             className='flex-1 h-full xl:mt-48'
           >
-            <h2 className='h2'>{title}</h2>
+            <h2 className='text-[40px] xl:text-[85px] text-dark uppercase font-primary max-w-[236px] leading-none mb-[38px]'>{title}</h2>
             <div className='flex flex-col items-end'>
               <div className='max-w-[530px] text-grey'>
                 <p className='mb-6'>{p1}</p>
                 <p className='mb-9'>{p2}</p>
                 <a href={anchor} target="_blank" rel="noreferrer">
-                  <button className='btn btn-lg btn-link'>
+                  <button className='btn mh-[67px] px-0 h-auto text-dark hover:text-dark/90 transition-all'>
                     {btnText}
                     <div className='text-xl'>{btnIcon}</div>
                   </button>

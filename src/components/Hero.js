@@ -35,14 +35,14 @@ const Hero = () => {
       >
         {/* text & btn */}
         <div className='text-white text-center lg:text-right lg:max-w-[940px]  '>
-          <motion.h1 variants={fadeIn('down')} className='h1'>
+          <motion.h1 variants={fadeIn('down')} className='text-[60px] lg:text-[168px] tracking-[-2px] leading-none font-primary mb-4'>
             {title}
           </motion.h1>
           
           {/* btn */}
           <motion.div variants={fadeIn('down')}>
             <a href={music} target="_blank" rel="noreferrer">
-              <button className='btn btn-sm lg:btn-sm mx-auto lg:mx-0 text-white bg-black bg-opacity-80 hover:bg-opacity-100 mt-[30px]'>
+              <button className='btn h-[55px] mx-auto lg:mx-0 text-white bg-black bg-opacity-80 hover:bg-opacity-100 mt-[30px]'>
                 {btnText}
                 <div className='text-xl'>{btnIcon}</div>
               </button>

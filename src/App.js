@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div className=' mx-auto overflow-hidden bg-white'>
       <Header />
+      
       <Hero />
       <About />
       <GallerySection />

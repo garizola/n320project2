@@ -24,12 +24,12 @@ const GallerySection = () => {
           // incountered a weird thing where the animation would spaz when at the top/bottom of viewport
           // the below helped with that 
           viewport={{ once: false, amount: 0.8 }}
-          className='h2 max-w-[570px] lg:mb-20'
+          className='text-[40px] xl:text-[95px] text-dark uppercase font-primary  leading-none mb-[38px] max-w-[570px] lg:mb-20 font-bold'
         >
           {title}
         </motion.h2>
       </div>
-      {/* photo album */}
+
       <motion.div
         variants={fadeIn('up')}
         initial='hidden'
@@ -55,7 +55,7 @@ const GallerySection = () => {
 
 
           <a href="https://www.google.com/search?q=moby&rlz=1C5MACD_enUS1017US1020&sxsrf=ALiCzsYakF5EZ76TnDJngQI7GTZvYdKmkQ:1670451354345&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1hdycxOj7AhU-lGoFHZluB0kQ_AUoAXoECAEQAw&biw=1710&bih=826&dpr=2" target="_blank" rel="noreferrer">
-            <button className='btn btn-lg btn-dark' >
+            <button className='btn h-[67px] bg-dark hover:bg-dark/90 transition-all text-white' >
               {btnText}
             <div className='text-xl'>
               {btnIcon}

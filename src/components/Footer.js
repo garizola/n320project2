@@ -18,7 +18,7 @@ const staggerContainer = {
 
 const Footer = () => {
   // destructure footer data
-  const { about, links, program, newsletter } = footerData;
+  const { about, links } = footerData;
   return (
     <footer className='bg-dark py-[20px] lg:py-[80px]'>
       <div className='container mx-auto'>
@@ -27,7 +27,6 @@ const Footer = () => {
           variants={staggerContainer}
           initial={'hidden'}
           whileInView={'show'}
-          // viewport={{ once: false, amount: 0.1 }}
           className='flex flex-col lg:flex-row lg:justify-between text-white gap-x-2 gap-y-14'
         >
           {/* about */}
