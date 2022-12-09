@@ -1,3 +1,3 @@
-# history of moby
+# Project 2
 
-## proj 2
+## [Link to live project](https://mobyhistory.netlify.app/)
