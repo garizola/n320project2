@@ -20,7 +20,7 @@ const Footer = () => {
   // destructure footer data
   const { about, links, program, newsletter } = footerData;
   return (
-    <footer className='bg-dark section'>
+    <footer className='bg-dark py-[20px] lg:py-[80px]'>
       <div className='container mx-auto'>
         {/* grid */}
         <motion.div

@@ -8,9 +8,9 @@ import { fadeIn } from '../variants';
 
 const About = () => {
   // destructure about data
-  const { title, p1, p2, btnText, btnIcon } = aboutData;
+  const { title, p1, p2, btnText, btnIcon, anchor } = aboutData;
   return (
-    <section className='lg:py-16 xl:pb-[160px]'>
+    <section id="about" className='lg:py-16 xl:pb-[160px]'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-[70px] items-center'>
           {/* numbers */}
@@ -38,10 +38,12 @@ const About = () => {
               <div className='max-w-[530px] text-grey'>
                 <p className='mb-6'>{p1}</p>
                 <p className='mb-9'>{p2}</p>
-                <button className='btn btn-lg btn-link'>
-                  {btnText}
-                  <div className='text-xl'>{btnIcon}</div>
-                </button>
+                <a href={anchor} target="_blank" rel="noreferrer">
+                  <button className='btn btn-lg btn-link'>
+                    {btnText}
+                    <div className='text-xl'>{btnIcon}</div>
+                  </button>
+                </a>
               </div>
             </div>
           </motion.div>

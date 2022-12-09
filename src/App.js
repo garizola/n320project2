@@ -1,11 +1,9 @@
 import React from 'react';
-
-// import components
 import Hero from './components/Hero';
 import Header from './components/Header';
 import About from './components/About';
 import GallerySection from './components/GallerySection';
-import Skills from './components/Skills';
+import Stories from './components/Stories';
 import Achievements from './components/Achievments'
 
 import Footer from './components/Footer';
@@ -21,12 +19,12 @@ const App = () => {
       <Hero />
       <About />
       <GallerySection />
-      <Skills />
+      <Stories />
       <Achievements />
 
       <Footer />
       <Copyright />
-      {/* <div className='h-[4000px]'></div> */}
+     
     </div>
   );
 };

@@ -5,6 +5,7 @@ import { heroData } from '../data';
 import { motion } from 'framer-motion';
 // import variants
 import { fadeIn } from '../variants';
+// import audio from './porc.mp3'
 
 const container = {
   hidden: {},
@@ -18,7 +19,12 @@ const container = {
 
 const Hero = () => {
   // destructure hero data
-  const { title, subtitle, btnText, btnIcon } = heroData;
+  const { title, btnText, btnIcon, music } = heroData;
+  
+ 
+
+  
+
   return (
     <section className='bg-hero  bg-cover mx-auto min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px] max-w-[2000px] bg-center'>
       <motion.div
@@ -28,22 +34,21 @@ const Hero = () => {
         className='container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center '
       >
         {/* text & btn */}
-        <div className='text-black text-center lg:text-right lg:max-w-[940px]  '>
+        <div className='text-white text-center lg:text-right lg:max-w-[940px]  '>
           <motion.h1 variants={fadeIn('down')} className='h1'>
             {title}
           </motion.h1>
-          {/* <motion.p
-            variants={fadeIn('down')}
-            className='mb-8 lg:mb-16 max-w-lg leading-relaxed'
-          >
-            {subtitle}
-          </motion.p> */}
+          
           {/* btn */}
           <motion.div variants={fadeIn('down')}>
-            <button className='btn btn-sm lg:btn-sm mx-auto lg:mx-0 text-white bg-black bg-opacity-80 hover:bg-opacity-100 mt-[30px]'>
-              {btnText}
-              <div className='text-xl'>{btnIcon}</div>
-            </button>
+            <a href={music} target="_blank" rel="noreferrer">
+              <button className='btn btn-sm lg:btn-sm mx-auto lg:mx-0 text-white bg-black bg-opacity-80 hover:bg-opacity-100 mt-[30px]'>
+                {btnText}
+                <div className='text-xl'>{btnIcon}</div>
+              </button>
+
+            </a>
+           
           </motion.div>
         </div>
         {/* outline text */}
